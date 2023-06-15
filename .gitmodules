@@ -1,0 +1,21 @@
+[submodule "final_challenge_city"]
+	path = final_challenge_city
+	url = git@github.mit.edu:rss2023-5/final_challenge_city.git
+[submodule "path_planning"]
+	path = path_planning
+	url = git@github.mit.edu:rss2023-5/path_planning.git
+[submodule "website"]
+	path = website
+	url = git@github.mit.edu:rss2023-5/website.git
+[submodule "final_challenge_race"]
+	path = final_challenge_race
+	url = git@github.mit.edu:rss2023-5/final_challenge_race.git
+[submodule "src_lab3"]
+	path = src_lab3
+	url = git@github.mit.edu:rss2023-5/src_lab3.git
+[submodule "visual_servoing"]
+	path = visual_servoing
+	url = git@github.mit.edu:rss2023-5/visual_servoing.git
+[submodule "safety_controller"]
+	path = safety_controller
+	url = git@github.mit.edu:rss2023-5/safety_controller.git
