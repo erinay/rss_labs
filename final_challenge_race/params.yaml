@@ -1,0 +1,7 @@
+scan_topic: "/scan"
+drive_topic: "/vesc/ackermann_cmd_mux/input/navigation"
+error_topic: "/error"
+velocity: 4
+Kp: 2.0  #2.
+Kd: 0.8  #0.8
+

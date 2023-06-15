@@ -1,0 +1,8 @@
+scan_topic: "/scan"
+drive_output: "/vesc/high_level/ackermann_cmd_mux/output"
+safety_topic: "/vesc/low_level/ackermann_cmd_mux/input/safety"
+stop_distance: .5
+worry_distance: 1
+worry_speed: .5
+relevant_indices: 8
+point_threshold: 5

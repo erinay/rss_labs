@@ -1,0 +1,6 @@
+scan_topic: "/scan"
+drive_output: "/vesc/high_level/ackermann_cmd_mux/output"
+safety_topic: "/vesc/low_level/ackermann_cmd_mux/input/safety"
+side: 1
+velocity: 2
+desired_distance: 1.

@@ -1,0 +1,14 @@
+<launch>
+    <node pkg="localization" type="particle_filter.py" name="particle_filter" output="screen">
+        <rosparam command="load" file="$(find localization)/params.yaml"/>
+    </node>
+
+	<node pkg="lab6" type="pure_pursuit.py" name="Trajectory_follower" output="screen">
+		<param name="odom_topic" value="/pf/pose/odom"/>
+	</node>
+
+    <node pkg="lab6" type="path_planning_rrt.py" name="Trajectory_planner" output="screen">
+        <!-- For sim -->
+		<param name="odom_topic" value="/pf/pose/odom"/>
+	</node>
+</launch>

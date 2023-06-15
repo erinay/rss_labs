@@ -1,0 +1,3 @@
+float32 rel_x
+float32 rel_y
+float32 sign_detection

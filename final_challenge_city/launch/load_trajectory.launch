@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="final_challenge_city" type="trajectory_loader.py" name="Trajectory_loader">
+		<param name="trajectory" value="$(find final_challenge_city)/trajectories/portal1_to_portal2_take2.traj"/>
+	</node>
+</launch>

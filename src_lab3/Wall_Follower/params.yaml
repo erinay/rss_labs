@@ -1,0 +1,10 @@
+scan_topic: "/scan"
+drive_topic: "/vesc/ackermann_cmd_mux/input/navigation"
+error_topic: "/error"
+side: 1
+velocity: 1
+desired_distance: 1
+Kp: 2.0  #2.
+Kd: 0.8  #0.8
+relevant_range: 2
+min_range: 0

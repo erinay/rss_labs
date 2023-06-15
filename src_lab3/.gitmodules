@@ -1,0 +1,6 @@
+[submodule "localization"]
+	path = localization
+	url = git@github.mit.edu:rss2023-5/localization.git
+[submodule "visual_servoing"]
+	path = visual_servoing
+	url = git@github.mit.edu:rss2023-5/visual_servoing.git
